@@ -1,0 +1,292 @@
+/* 
+    Created on : Nov 3, 2019, 8:54:17 AM
+    Author     : Timothy Lickteig
+*/
+
+body {
+    background-image: url("../images/background.png");
+}
+
+header {
+    background-color: white;
+    margin: -1em;
+}
+
+footer {
+    background-color: white;
+    padding-bottom: 5em;    
+}
+
+footer h2 {
+    text-align: center;
+}
+
+main {
+    border: 3px solid black;
+    margin: 0 auto;
+    margin-top: 5em;
+    width: 960px;
+    height: 375%;
+    padding: 1em;
+    background-color: white;
+}
+
+#lstMenu {
+    border: 0 solid white;
+    width: 100%;
+    clear: none;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+    padding: 10px 0 10px 0;
+    float: left;
+    height: 2em;   
+}
+
+#lstMenu > li{
+    width: 10em;
+    float: left;    
+    text-align: center;
+    list-style: none;
+    border-top: 5px solid white;
+}
+
+#lstMenu > li > a {
+    text-decoration: none;
+    color: black;   
+}
+
+#lstMenu > li:hover{
+    background-color: white;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+}
+
+#lstMenu > li > ul{
+    width: 12em;
+    float: left;      
+    margin-top: -15em;   
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#lstMenu > li > ul > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 88%;
+}
+
+#lstMenu > li > ul > li > a:hover { 
+    border-left: 0 solid black;    
+    color: red;
+    left: 10px;
+}
+
+.ui-menu .ui-menu {
+    width: 10em;
+}
+
+#lstShare {
+    border: 0 solid white;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+    padding: 10px 0 10px 0;
+    float: left;
+    height: 2em;    
+}
+
+#lstShare > li{
+    width: 10em;
+    float: left; 
+    text-align: center;
+    list-style: none;
+    border-top: 5px solid white;
+}
+
+#lstShare > li > a {
+    text-decoration: none;
+    color: black;   
+}
+
+#lstShare > li:hover{    
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+}
+
+#lstShare > li > ul{
+    width: 12em;
+    float: left;      
+    margin-top: -15em;   
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#lstShare > li > ul > li > a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+#lstFooterMenu {
+    border: 0 solid white;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+    padding: 10px 0 10px 0;
+    float: left;
+    height: 2em;    
+}
+
+#lstFooterMenu > li{
+    width: 10em;
+    float: left; 
+    text-align: center;
+    list-style: none;
+    border-top: 5px solid white;
+}
+
+#lstFooterMenu > li > a {
+    text-decoration: none;
+    color: black;   
+}
+
+#lstFooterMenu > li:hover{
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+}
+
+#lstFooterMenu > li > ul{
+    width: 12em;
+    float: left;      
+    margin-top: -15em;   
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#lstFooterMenu > li > ul > li > a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+#lstFooterShare {
+    border: 0 solid white;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+    padding: 10px 0 10px 0;
+    float: left;
+    height: 2em;    
+}
+
+#lstFooterShare > li{
+    width: 10em;
+    float: left; 
+    text-align: center;
+    list-style: none;
+    border-top: 5px solid white;
+}
+
+#lstFooterShare > li > a {
+    text-decoration: none;
+    color: black;   
+}
+
+#lstFooterShare > li:hover{
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+}
+
+#lstFooterShare > li > ul{
+    width: 12em;
+    float: left;      
+    margin-top: -15em;   
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#lstFooterShare > li > ul > li > a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+img {
+    width: 20%;
+    margin: 1em;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#h1JoinOurTeam {
+    text-align: center;
+}
+
+#pJobName {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#textSideOne {
+    width: 50%;
+    float: left;
+}
+
+#textSideTwo {
+    width: 50%;
+    float: right;
+}
+
+.otherSide {    
+    text-align: right;
+}
+
+#pStoreNumber {
+    margin-top: -10em;
+}
+
+#pPhoneNumber {
+    margin-bottom: 30px;
+}
+
+fieldset {    
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;   
+    border: 0 solid black;
+}
+
+fieldset input {
+    float: top;
+    display: inline;
+    vertical-align: middle;
+}
